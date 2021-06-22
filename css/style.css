@@ -25,7 +25,7 @@ body {
 }
 
 .inner {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -77,5 +77,32 @@ main img {
 
 .index_a .index_b ol li:last-child {
   margin-bottom: 0;
+}
+
+/* * * * * * * * *
+*	section pic
+* * * * * * * * */
+ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0 45px 0;
+}
+
+ul li {
+  list-style: none;
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+ul img {
+  vertical-align: bottom;
 }
 /*# sourceMappingURL=style.css.map */
