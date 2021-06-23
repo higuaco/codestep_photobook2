@@ -29,6 +29,13 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 /* * * * * * * * *
 *	header
 * * * * * * * * */
@@ -47,7 +54,6 @@ header h1 {
 * * * * * * * * */
 main img {
   width: 1000px;
-  height: 400px;
   margin: 0 0 60px 0;
   padding: 0;
 }
@@ -58,6 +64,10 @@ main img {
   padding: 60px;
   margin-right: 0;
   margin-bottom: 60px;
+}
+
+.index_a h2 {
+  margin-top: 0;
 }
 
 .index_a .index_b {
@@ -83,8 +93,6 @@ main img {
 *	section pic
 * * * * * * * * */
 ul {
-  padding: 0;
-  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,15 +102,21 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 30px 0 45px 0;
+  padding: 0;
+  list-style: none;
 }
 
 ul li {
-  list-style: none;
-  width: 48%;
+  width: 49%;
   margin-bottom: 15px;
 }
 
 ul img {
   vertical-align: bottom;
+  margin: 0;
 }
+
+/* * * * * * * * *
+*	DETAIL
+* * * * * * * * */
 /*# sourceMappingURL=style.css.map */
